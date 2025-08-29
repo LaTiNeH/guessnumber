@@ -8,7 +8,7 @@ while guess_count<max_count:
     guess=input("請輸入4位數字(0~9,數字不能重複)或輸入Q離開遊戲:")
     A_count=0
     B_count=0
-    if len(guess)==4 and guess.isdigit() :
+    if len(guess)==4 and guess.isdigit():
         guess_digit=[int(guess[i]) for i in range(4)]
         B_match=0
         for i in range(4):
